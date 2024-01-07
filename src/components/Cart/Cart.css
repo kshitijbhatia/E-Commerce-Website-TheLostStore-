@@ -1,0 +1,37 @@
+.cart_container{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_container video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.cart_container h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0 0 3vh 0;
+    text-align: center;
+    color: white;
+}
+
+.cart_items{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_items_map{
+    width: 90vw;
+    height: 80vh;
+    margin: 0 0 0 5vw;
+    overflow-y: auto;
+}

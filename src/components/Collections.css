@@ -1,0 +1,100 @@
+.collections_layout{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.collections{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.collections h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0 0 5vh 0;
+    text-align: center;
+    color: white;
+}
+
+.collections_items{
+  position: absolute;
+  top: 20vh;
+  width: 97vw;
+  left: 1vw;
+  height: 77vh;
+  overflow-y: auto; 
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  text-align: center;
+}
+
+.collections_items button{
+    width: 80%; 
+    height: 50vh; 
+    margin-bottom: 20px; 
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-size:contain;
+}
+
+#button1{
+    background-image: url('../resources/Tshirt.webp');
+}
+
+#button2{
+    background-image: url('../resources/Tote.webp');
+}
+
+#button3{
+    background-image: url('../resources/Crop.webp');
+}
+
+#button4{
+    background-image: url('../resources/Accessories.webp');
+}
+
+/* .collections_items button:hover{
+    
+} */
+
+
+
+
+.collections video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.cart_layout{
+    /* background-color: black; */
+    width: 5vw;
+    height: 8vh;
+    position: fixed;
+    right: 1vw;
+    top: 4vh;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.cart_layout:hover{
+    box-shadow: 0 0 10px grey;
+    cursor: pointer;
+}
+
+.cart_layout img{
+    width: 4vw;
+    height: 6vh;
+    margin: 1vh 0 0 0.5vw;
+}

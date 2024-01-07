@@ -1,0 +1,179 @@
+.product_layout{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.product_container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.product_container h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0 0 5vh 0;
+    text-align: center;
+    color: white;
+}
+
+.product{
+    /* background-color: black; */
+    width: 80vw;
+    height: 80vh;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.product img{
+    width: 35vw;
+    height: 50vh;
+    /* background-color: blue; */
+    margin: 15vh 0 0 0;
+}
+
+.product_description{
+    /* background-color: red; */
+    width: 45vw;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* color: white; */
+}
+
+.product_description h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    margin: 5vh 0 0 0;
+    color: white;
+}
+
+.product_description h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.product_description ul{
+    /* background-color: yellow; */
+    font-family: 'Oswald', sans-serif;
+    width: 30vw;
+    margin: 0 0 5vh 5vw;
+    text-align: center;
+}
+
+.product_description li{
+    margin: 10px;
+    color: white;
+}
+
+.product_description p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+
+.product_buttons{
+    /* background-color: aqua; */
+    width: 45vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+}
+
+.product_buttons h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-left: 6vw;
+    color: white;
+}
+
+#dropdown{
+    background-color: white;
+    width: 20vw;
+    height: 5vh;
+    margin:  0 0 0 12.5vw;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 0 0 0 0;
+    cursor: pointer;
+}
+
+.dropdown_content{
+    display: block;
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 13vh;
+    /* border-radius: 20px; */
+    border-radius: 0 0 20px 20px;
+    top: 75vh;
+    left: 57.5vw;
+    z-index: 100;
+    text-align: center;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.dropdown_content p{
+    border-radius: 5px;
+    width: 10vw;
+    height: 5vh;
+    margin: 1.5vh 0 0 0;
+}
+
+.dropdown_content p:hover{
+    background-color: blue;
+    color: white;
+}
+
+.product_buttons_container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aquamarine; */
+    height: 6vh;
+    margin-top: 12vh;
+}
+
+.product_buttons_container button{
+    width: 20vw;
+    height: 6vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 1.5vw;
+    cursor: pointer;
+}
+
+.product_buttons_container button:hover{
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product_container video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}

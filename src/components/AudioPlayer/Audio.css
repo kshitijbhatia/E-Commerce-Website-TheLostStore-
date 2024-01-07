@@ -1,0 +1,44 @@
+.audio_container{
+    position: fixed;
+    width: 11vw;
+    height: 15vh;
+    /* background-color: blue; */
+    right: 0;
+    bottom: 10vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#album_cover{
+    width: 6vw;
+    height: 10vh;
+    border-radius: 100%;
+    margin:2.5vh 0 0 0;
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate{
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+#album_cover_spot{
+    width: 1.5vw;
+    height: 2.5vh;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    top: 6.5vh;
+    left: 2.25vw;
+}
+
+#pause{
+    width: 3vw;
+    height: 5vh;
+    margin: 4.5vh 0 0 0.5vw;
+    cursor: pointer;
+}

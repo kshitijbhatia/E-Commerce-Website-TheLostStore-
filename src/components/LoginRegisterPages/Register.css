@@ -1,0 +1,107 @@
+.register_page{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.register_container video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.register_container h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0 0 9vh 0;
+    text-align: center;
+    color: white;
+}
+
+.register_input{
+    width: 40vw;
+    height: 55vh;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 2vh 2vw 2vh 2vw;
+    margin: 0 0 0 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.register_name{
+    /* background-color: blue; */
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.register_name input{
+    width: 15vw;
+    height: 5vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 0 0 5px;
+    margin-left: 2.5vw;
+}
+
+.email_pass{
+    /* background-color: red; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.email_pass input{
+    width: 32vw;
+    height: 5vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 0 0 5px;
+    margin: 3vh 0 0 2.5vw;
+}
+
+.register_input button{
+    width: 20vw;
+    height: 6vh;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0 0 0 5px;
+    margin: 0 0 6vh 10vw;
+    cursor: pointer;
+}
+
+.register_input p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin: 2vh 0 0 11vw;
+}
+
+.register_input a{
+    text-decoration: underline;
+    cursor: pointer;
+}

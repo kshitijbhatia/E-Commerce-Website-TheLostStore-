@@ -1,0 +1,68 @@
+.page_layout{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page_container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.page_container h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+.page_content{
+    /* background-color: black; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    width: 80vw;
+    height: 70vh;
+    position: relative;
+    left: 10vw;
+    overflow-y: auto;
+    color: white;
+}
+
+
+
+#back_home_button{
+    font-family: 'Oswald', sans-serif;
+    width: 10vw;
+    height: 5vh;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-left: 45vw;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+#back_home_button:hover{
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+.page_container video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}

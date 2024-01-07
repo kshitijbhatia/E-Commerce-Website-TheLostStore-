@@ -1,0 +1,43 @@
+.clothes_page{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.clothes_layout{
+    width: 100vw;
+    height: 100vh;
+}
+
+.clothes_layout h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    margin: 0 0 5vh 0;
+    text-align: center;
+    color: white;
+}
+
+
+
+.clothes{
+    /* background-color: blue; */
+    width: 90vw;
+    height: 82vh;
+    margin-left: 5vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    overflow-y: auto;
+}
+
+
+
+
+.clothes_layout video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 103%;
+    overflow: hidden;
+    z-index: -1;
+}
