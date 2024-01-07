@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const connectionString = 'mongodb+srv://Kshitij:kritika5@node-express-project.zpsgn80.mongodb.net/SwiftCart?retryWrites=true&w=majority'
+const connectionString = YOUR_CONNECTION_STRING
 
 const connectDB = ()=>{
     mongoose
